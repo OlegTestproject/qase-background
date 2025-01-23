@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Фон с наложением текстуры</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-image: url('img/Sunsey.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        #overlay { /* Стиль для div-обертки */
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('img/overlay_texture.jpg');
+            background-size: cover; /* или contain, 100% 100%, auto */
+            background-repeat: repeat; /* или no-repeat, repeat-x, repeat-y */
+            opacity: 0.5; /* Полупрозрачность */
+            pointer-events: none;
+            z-index: 1; /* Поверх фона */
+        }
+    </style>
+</head>
+<body>
+<div id="overlay"></div> <h1>Содержимое вашего сайта</h1>
+<p>Текст и другие элементы страницы...</p>
+</body>
+</html>
