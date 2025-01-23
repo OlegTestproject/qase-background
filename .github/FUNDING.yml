@@ -1,0 +1,7 @@
+github: OlegTestproject
+custom: [
+    'bitcoin:bc1pwlzc2l85lrklkerw9t5n3edn28c97ds0nf6y9teuyu656n79nsaqc4l8dh', # Bitcoin (Taproot) 
+    'ethereum:0x4Ee9fe31539a0C9Feaa64966695c87964918d093', # Ethereum 
+    'usdt:TDQStnQMvDTXqTpZ1Pk9B6bcridxQpmLzM', # USDT (TRC20)
+'monero:44AGNijsoepX3rebpBsmS9gLURZo8kkG7idcUe1AE2EyDKpLuPK7PWNDNEhVQAc93CPyAz7GPmC6n6bVUe5qiNmqFXLtBGh', # Monero 
+]
